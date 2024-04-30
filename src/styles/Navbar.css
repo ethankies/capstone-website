@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar ul li button:hover,
+  .navbar ul li button:focus {
+    background-color: #f0f0f5;
+    outline: none;
+  }
+  
+  .navbar ul li button.active {
+    color: #007aff; /* Apple blue */
+    font-weight: bold;
+  }
+  
