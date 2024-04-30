@@ -35,12 +35,12 @@
   
   .navbar ul li button:hover,
   .navbar ul li button:focus {
-    background-color: #f0f0f5;
-    outline: none;
+    /* background-color: #f0f0f5;
+    outline: none; */
   }
   
   .navbar ul li button.active {
-    color: #007aff; /* Apple blue */
-    font-weight: bold;
+    color: rgb(255, 59, 48); /* Apple blue */
+    /* font-weight: bold; */
   }
   
