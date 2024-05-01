@@ -43,4 +43,8 @@
     color: rgb(255, 59, 48); /* Apple blue */
     /* font-weight: bold; */
   }
-  
+  @media only screen and (max-width: 600px) {
+   .navbar{
+    display: none;
+   }
+  }

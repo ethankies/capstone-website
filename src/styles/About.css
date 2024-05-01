@@ -1,15 +1,13 @@
-.section {
-    display: flex;
-    flex-direction: column; /* Ensures content is stacked vertically */
-    align-items: center; /* Center-aligns the items for better aesthetics */
-    text-align: center;
-    padding: 40px;
-    margin: 20px;
-    border-bottom: 1px solid #ccc; /* Adds a subtle separator, optional */
-  }
-  
+h2{
+  margin-bottom: 0px;
+}
+
+p{
+  margin-top: 0px;
+}
   .about-section {
-    margin-bottom: 30px; /* Adds space between each section */
+   
+    margin: 50px; /* Adds space between each section */
   }
   
   .about-description, .about-team, .about-mission {
@@ -19,3 +17,13 @@
     max-width: 800px; /* Limits width for better readability */
   }
   
+
+  #about {
+    display: flex;
+    flex-direction: column; /* Ensures content is stacked vertically */
+    align-items: center; /* Center-aligns the items for better aesthetics */
+    text-align: center;
+    background-color: #f5f5f7;
+    /* height: 100vh; */
+
+  }

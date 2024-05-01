@@ -1,27 +1,34 @@
-.features {
-    text-align: center;
-    padding: 40px;
-  }
+.feature-list {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly between features */
+  flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+  /* margin-top: 20px; */
   
-  .feature-list {
-    display: flex;
-    justify-content: space-around; /* Distributes space evenly between features */
-    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
-    margin-top: 20px;
-  }
-  
-  .feature-item {
-    flex-basis: 30%; /* Each feature takes roughly a third of the container width */
-    min-width: 250px; /* Minimum width for smaller screens */
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    border-radius: 10px; /* Rounded corners for a softer look */
-  }
-  
-  .feature-icon {
-    width: 100px; /* Set a fixed size for icons */
-    height: 100px;
-    margin-bottom: 20px; /* Space between the icon and the title */
-  }
-  
+}
+
+.feature-item {
+  flex-basis: 30%; /* Takes up 30% of the container width */
+  min-width: 300px; /* Minimum width to maintain a readable layout on small screens */
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Adds depth with a subtle shadow */
+  border-radius: 8px; /* Softens the edges with rounded corners */
+}
+
+.feature-icon {
+  width: 200px; /* Set a fixed size for icons */
+
+  margin-bottom: 10px; /* Space between the icon and the title */
+  margin-top: 10px; /* Space between the icon and the title */
+
+
+  width: 100%; /* Ensures the image stretches to fill the container */
+  height: auto;
+  border-radius: 8px; /* Matches the item’s corners */
+  margin-bottom: 20px; /* Space below the image */
+}
+#features {
+  text-align: center;
+  padding: 40px;
+}
+/*  */

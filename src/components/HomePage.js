@@ -1,6 +1,6 @@
 import React from 'react';
 import './../styles/HomePage.css'; // Assuming you have a CSS file for styling
-
+import hs from '../assets/icat_images/highscreenshot.png'
 const HomePage = () => {
   return (
     <div id="home" className="home-section">
@@ -11,8 +11,9 @@ const HomePage = () => {
       leverages virtual reality to enhance the skills of medical professionals in various stressful 
       situations. Prepare to experience the next level of emergency medical training.
     </p>
-    <div className="home-video">
-      <iframe 
+    <div className="home-img">
+      <img src={hs}></img>
+      {/* <iframe 
         width="560" 
         height="315" 
         src="https://www.youtube.com/embed/yourVideoId" 
@@ -20,7 +21,7 @@ const HomePage = () => {
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
-      </iframe>
+      </iframe> */}
     </div>
   </div>
   );

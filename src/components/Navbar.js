@@ -38,13 +38,13 @@ const Navbar = () => {
           "features",
           "scenarios",
           "team",
-          "research",
+          // "research",
           "contact",
         ].map((section) => (
           <li key={section}>
             <button
               onClick={() => scrollTo(section)}
-              className={activeSection === section ? "active" : ""}
+           className={activeSection === section ? "active" : ""}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </button>

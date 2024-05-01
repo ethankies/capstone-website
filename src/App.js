@@ -22,7 +22,7 @@ function App() {
         <Features />
         <ScenariosOverview />
         <Team />
-        <ResearchAndDevelopment />
+        {/* <ResearchAndDevelopment /> */}
         <ContactFeedback />
       </div>
     </Router>

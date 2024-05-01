@@ -1,11 +1,12 @@
 .home-section {
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
   }
   
   .home-title {
     color: rgb(255, 59, 48); /* Apple blue */
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
   
   .home-introduction {
@@ -13,8 +14,11 @@
     color: #333;
     margin-bottom: 20px;
   }
-  
-  .home-video {
-    margin-top: 20px;
+
+  img{
+    width: 100%;
+  }
+ #home p{
+    padding: 50px;
   }
   
