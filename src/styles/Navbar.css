@@ -33,10 +33,11 @@
     transition: background-color 0.3s, color 0.3s;
   }
   
-  .navbar ul li button:hover,
-  .navbar ul li button:focus {
-    /* background-color: #f0f0f5;
-    outline: none; */
+  .navbar ul li button:hover
+   {
+    background-color: #f0f0f5;
+    outline: none;
+    /* .navbar ul li button:focus */
   }
   
   .navbar ul li button.active {
