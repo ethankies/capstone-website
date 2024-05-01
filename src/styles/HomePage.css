@@ -1,8 +1,4 @@
-.home-section {
-    /* padding: 20px; */
-    text-align: center;
-  }
-  
+
   .home-title {
     color: rgb(255, 59, 48); /* Apple blue */
     margin-bottom: 40px;
@@ -20,5 +16,9 @@
   }
  #home p{
     padding: 50px;
+    
   }
-  
+  #home {
+    text-align: center;
+   
+  }

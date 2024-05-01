@@ -3,7 +3,7 @@ import './../styles/HomePage.css'; // Assuming you have a CSS file for styling
 import hs from '../assets/icat_images/highscreenshot.png'
 const HomePage = () => {
   return (
-    <div id="home" className="home-section">
+    <div id="home" className="section">
     <h1 className="home-title">Train to Save Lives in Real-Time VR</h1>
     <p className="home-introduction">
       Welcome to REACTS — the Realistic Emergency Aid & Collaboration Training System. 

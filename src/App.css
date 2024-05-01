@@ -22,6 +22,18 @@ nav ul li {
   text-align: center; */
     /* padding: 40px; */
     /* margin: 20px; */
+    /* max-width: 1500px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+img {
+ 
+  max-height: 1000px;
+  object-fit: cover;
+
 }
 
 /* Add additional styling here */

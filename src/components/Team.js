@@ -15,6 +15,7 @@ const Team = () => {
     autoplaySpeed: 3000,
     pauseOnHover: true,
     arrows: false,
+ 
   };
 
   const teamMembers = [
@@ -28,8 +29,7 @@ const Team = () => {
       name: "Dan Tran",
       email: "dantrvn47@vt.edu",
       link: "https://www.linkedin.com/in/danielvtran/",
-      description:
-        "",
+      description: "",
     },
     {
       name: "Colin Roberts",
