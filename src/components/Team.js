@@ -20,7 +20,7 @@ const Team = () => {
         breakpoint: 1024, // width to change options
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -29,7 +29,7 @@ const Team = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       }
