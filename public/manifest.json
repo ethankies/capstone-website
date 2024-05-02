@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "REACTS",
+  "name": "REACTS Capstone Project Website",
+ 
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,4 +23,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+  
 }
