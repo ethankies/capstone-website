@@ -13,7 +13,6 @@
   margin: 30px;
   height: 300px;
 
-
   margin: 0 auto;
   padding: 40px;
   width: 80%;
@@ -21,15 +20,15 @@
   /* background: #419be0; */
 }
 .slick-slide {
-  margin: 10px;
-
-
   text-align: center;
   color: #419be0;
   background: white;
   margin: 10px;
 }
 
+.slick-list {
+  /* margin-left: 0 -10px; */
+}
 
 .team-card h3 {
   color: #333;
@@ -52,10 +51,15 @@
   margin: 20px;
 }
 
-
 #team {
   background-color: white;
   text-align: center;
   /* height: 40vh; */
   padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .slick-slide {
+    margin: 0px;
+  }
 }

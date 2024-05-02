@@ -15,7 +15,25 @@ const Team = () => {
     autoplaySpeed: 3000,
     pauseOnHover: true,
     arrows: false,
- 
+    responsive: [
+      {
+        breakpoint: 1024, // width to change options
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      }
+    ]
   };
 
   const teamMembers = [
