@@ -1,32 +1,32 @@
+.scenario-list {
+  display: flex;
+  justify-content: space-around; /* Ensures spacing is maintained between items */
+  flex-wrap: wrap; /* Allows for responsive wrapping on smaller screens */
+  /* margin-top: 20px; */
+}
 
-  .scenario-list {
-    display: flex;
-    justify-content: space-around; /* Ensures spacing is maintained between items */
-    flex-wrap: wrap; /* Allows for responsive wrapping on smaller screens */
-    /* margin-top: 20px; */
-  }
-  
-  .scenario-item {
-    flex-basis: 100%; /* Takes up 30% of the container width */
-    min-width: 300px; /* Minimum width to maintain a readable layout on small screens */
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Adds depth with a subtle shadow */
-    border-radius: 20px; /* Softens the edges with rounded corners */
-    background-color: white;
-    max-width: 1000px;
-  }
-  
-  .scenario-image {
-    width: 100%; /* Ensures the image stretches to fill the container */
-    height: auto;
-    border-radius: 10px; /* Matches the item’s corners */
-    margin-bottom: 20px; /* Space below the image */
-  }
-  
-  #scenarios{
-    text-align: center;
-    background-color: 	#eeeeee;
-   
-    padding: 40px;
-  }
+.scenario-item {
+  flex-basis: 100%; /* Takes up 30% of the container width */
+  min-width: 300px; /* Minimum width to maintain a readable layout on small screens */
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Adds depth with a subtle shadow */
+  border-radius: 20px; /* Softens the edges with rounded corners */
+  background-color: white;
+  max-width: 1000px;
+}
+
+.scenario-image {
+  width: 100%; /* Ensures the image stretches to fill the container */
+  height: auto;
+  border-radius: 10px; /* Matches the item’s corners */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+#scenarios {
+  text-align: center;
+  background-color: #eeeeee;
+
+  padding: 40px;
+}
+

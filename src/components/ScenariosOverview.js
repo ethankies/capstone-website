@@ -10,9 +10,9 @@ const ScenariosOverview = () => {
     <div id="scenarios" className="section">
       <h2>Scenarios</h2>
       <p>Scenes in REACTS</p>
-    
+
       <div className="scenario-list">
-      <div className="scenario-item">
+        <div className="scenario-item">
           <img src={homess} alt="Scene Selection" className="scenario-image" />
           <h3>Scene Selection</h3>
           <p>Menu selection to choose desired stress level.</p>
@@ -45,8 +45,8 @@ const ScenariosOverview = () => {
             with intense visuals and sounds to simulate real-world chaos.
           </p>
         </div>
-    
       </div>
+     
     </div>
   );
 };

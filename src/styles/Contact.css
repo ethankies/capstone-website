@@ -5,3 +5,20 @@
     padding: 40px;
     /* margin-top: 50px; */
 }
+
+#contact h2 {
+    margin: 50px;
+}
+
+#contact a {
+    text-decoration: underline rgb(255, 59, 48);
+    color: white;
+  }
+  
+
+.gh-section {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+ 
